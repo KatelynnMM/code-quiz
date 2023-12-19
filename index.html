@@ -9,22 +9,35 @@
 </head>
 
 <body>
-    <div class="outer-containe">
+    <div class="outer-container">
 
         <!-- top bar section -->
         <div class="top-bar">
             <button>View Highscore</button>
-            <p>Timer: 00:00</p>
+            <p id="timer">Timer: 00:00</p>
         </div>
 
         <div class="inner-container">
 
             <header class="quiz-intro">
+                <h1>Quiz</h1>
+                <p>Lets Get started with the quiz</p>
+                <button id="start-button">Start</button>
 
             </header>
 
             <!-- quiz content -->
-            <main>
+            <main class="quiz-container">
+                <div id="quiz-container">
+                    <h1 id="question"></h1>
+                    <ul id="options">
+                        <li><button class="option"></button></li>
+                        <li><button class="option"></button></li>
+                        <li><button class="option"></button></li>
+                        <li><button class="option"></button></li>
+                    </ul>
+
+                </div>
 
 
             </main>
